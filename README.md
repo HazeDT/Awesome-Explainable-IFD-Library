@@ -6,6 +6,8 @@ This is a repository about **Explainable intelligent fault diagnosis (XIFD) meth
 
 We will continue to update this repository and hope this repository can benefit your research.
 
+
+
 ![Image 1](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/XIFD.jpg)
 
 # BibTex Citation
@@ -25,7 +27,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 IFD consists of four main tasks, that is, machine anomaly detection (AD), fault diagnosis (FD), remaining useful life (RUL) prediction, and cross-domain IFD, as shown below. 
 
-
+![Image 2](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/XIFD.jpg)
 # Overview
 
 - [1. XIFD](#section-id1)
