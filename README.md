@@ -81,10 +81,10 @@ Global explainability aims to help people understand the overall logic behind th
 ### Attention Mechanism Assisted Intelligent Fault Diagnosis Methods 
 <a name="section-id6"></a>
 Attention mechanisms provide a way to help understand what to focus on during model learning, and it allows the model to automatically and selectively focus on important information and ignore unimportant information when dealing with large amounts of input data in order to achieve transparency and visualization of the decision-making process, which in turn enhances the model explainability.
-#### 1) Non-self-attention-based
+### 1) Non-self-attention-based
 
 
-#### 2) Self-attention-based
+### 2) Self-attention-based
 
 
 
@@ -123,7 +123,7 @@ Currently, there are two ways to implement PIFD, where the first way is to estab
 <a name="section-id9"></a>
 
 
-| Task                 | Dataset                  | Object                                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Task                 | Dataset                  | Object                                        | Description                                                                       |
 |:------------------|:------------------|:-----------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Anomaly detection | MIMII [30]        | Valve, pump, fan, slide rail             | This dataset is a sound dataset that simulates the sound of components such as valves, pumps, fans, and slides under normal and abnormal conditions. The data was recorded by an 8-channel microphone array and simulated the impact of noise in a real factory.                                                                                                                                                  |
 | Anomaly detection | MIMII DG [31]     | Fan, gearbox, bearing, slide rail, valve | The dataset contains sound recordings from five types of industrial machines (fan, gearbox, bearing, slide rail, valve), collected under multiple domain-shift scenarios. Each audio clip is about 10 seconds long, sampled at 16 kHz using a TAMAGO-03 microphone in soundproof or anechoic chambers.                                                                                                            |
