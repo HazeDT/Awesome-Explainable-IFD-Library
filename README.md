@@ -1,6 +1,5 @@
 # Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights 基于可解释人工智能的智能故障诊断：从应用到洞察的系统回顾
 
-# ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) 
 
 This is a repository about **Explainable intelligent fault diagnosis (XIFD) methods**, including papers, code, datasets etc. 
 
