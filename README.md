@@ -1,6 +1,6 @@
 # Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights 基于可解释人工智能的智能故障诊断：从应用到洞察的系统回顾
 
-# ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) ![Last update](https://img.shields.io/badge/Last%20update-20250628-blue) ![Paper number](https://img.shields.io/badge/Paper%20Number-169-orange)
+# ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) 
 
 This is a repository about **Explainable intelligent fault diagnosis (XIFD) methods**, including papers, code, datasets etc. 
 
@@ -27,7 +27,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 IFD consists of four main tasks, that is, machine anomaly detection (AD), fault diagnosis (FD), remaining useful life (RUL) prediction, and cross-domain IFD, as shown below. 
 
-![Image 2](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/XIFD.jpg)
+![Image 2](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/Task%20of%20IFD.jpg)
 # Overview
 
 - [1. XIFD](#section-id1)
