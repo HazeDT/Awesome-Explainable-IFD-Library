@@ -2,7 +2,7 @@
 
 # ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) ![Last update](https://img.shields.io/badge/Last%20update-20250628-blue) ![Paper number](https://img.shields.io/badge/Paper%20Number-169-orange)
 
-This is a repository about **Explainable intelligent fault diagnosis methods**, including papers, code, datasets etc. 
+This is a repository about **Explainable intelligent fault diagnosis (XIFD) methods**, including papers, code, datasets etc. 
 
 We will continue to update this repository and hope this repository can benefit your research.
 
@@ -20,31 +20,26 @@ If you find this paper and repository useful, please cite our paper☺️.
   pages={109964},
   year={2026}
 }
-
+```
 # Overview
-- [1. Papers for Fault Diagnosis](#section-id1)
 
--   - [1.1 Survey](#section-id2)
--   - [1.2 Regular Paper](#section-id3)
+- [1. XIFD](#section-id1)
 
--   -   - [1.2.1. Homogeneous Domain Generalization-based Fault Diagnosis (HDGFD)](#section-id3)
--   -   - [1.2.2. Federated Domain Generalization-based Fault Diagnosis (FedDGFD)](#section-id4)
--   -   - [1.2.3. Semisupervised Domain Generalization-based Fault Diagnosis (SemiDGFD)](#section-id5)
--   -   - [1.2.4. Open Set Domain Generalization-based Fault Diagnosis (OSDGFD)](#section-id6)
--   -   - [1.2.5. Imbalanced Domain Generalization-based Fault Diagnosis (IDGFD)](#section-id7)
--   -   - [1.2.6. Single Domain Generalization-based Fault Diagnosis (SDGFD)](#section-id8)
+-   - [1.1 Post-hoc explainability methods](#section-id2)
+-   -   -  [1.1.1.Globally explainable methods](#section-id3)
+-   -   -  [1.1.2.Locally explainable methods ](#section-id4)
+-   - [1.2 Ante-hoc explainability methods](#section-id5)
+-   -   - [1.2.1. Attention Mechanism Assisted Intelligent Fault Diagnosis Methods)](#section-id6)
+-   -   - [1.2.2. Physics-informed intelligent fault diagnosis methods](#section-id7)
+-   -   - [1.2.3. Signal Processing-informed Intelligent Fault Diagnosis Methods](#section-id8)
   
 - [2. Data](#section-id9)
 
 - [3.1. Code for Benchmark](#section-id10)
 
-- [3.2. Code for Method Paper](#section-id13)
+- [3.2. Code for Method Paper](#section-id11)
 
-- [4. Papers for Prognosis](#section-id11)
-
-- [5. Talk](#section-id14)
-
-- [6. Related Project](#section-id12)
+- [4. Papers for Prognosis](#section-id12)
 
 
 # Papers
@@ -546,15 +541,6 @@ If you find this paper and repository useful, please cite our paper☺️.
 | 9     	| 2022 	| HUSTbearing  	| bearing   	| artifical                    	| Multiple working conditions 	|     /               	|         [[data link](https://github.com/CHAOZHAO-1/HUSTbearing-dataset)]               	|       
 | 10    	| 2022 	| HUSTgearbox  	| gearbox    	| artifical                    	| Multiple working conditions 	|    /                	|         [[data link](https://github.com/CHAOZHAO-1/HUSTgearbox-dataset)]              	|
 
-# Code for Benchmark
-<a name="section-id10"></a>
-
-> Our benchmark code is released at   [[Code link](https://github.com/CHAOZHAO-1/Domain-generalization-fault-diagnosis-benchmark)]  
-
-
-> Another benchmark code is released at  [[Code link](https://github.com/ShaneSpace/DGFDBenchmark)]  
-
-
 
 
 # Code for Method Paper
@@ -577,56 +563,6 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 
 - [苏州大学沈长青教授：从域适应到域泛化：人工智能驱动的故障诊断模型探索](https://www.bilibili.com/video/BV1V34y1q758/?spm_id_from=333.337.search-card.all.click&vd_source=ec846a76720b6da306d5919873954ab5)
-
-
-# Domain Generalization-based Fault Prognosis
-
-<a name="section-id11"></a>
-
-
-### 2025
-
-
--Towards prognostic generalization: a domain conditional invariance and specificity disentanglement network for remaining useful life prediction [[Measurement 2025](https://www.sciencedirect.com/science/article/pii/S0263224124023364?casa_token=Iy9NcEz_fPAAAAAA:HMb7ec267uBNaEqhimmpzg4rbe17H_pIf39v41GWhpDN247vl04ZomLjMYStwI-nBthzUabong)]
-
-- Contrastive domain-invariant generalization for remaining useful life prediction under diverse conditions and fault modes [[RESS 2025](https://www.sciencedirect.com/science/article/pii/S0951832024006069?casa_token=56rN4xmGmooAAAAA:yUWPSQogKbc_uAQ7nU-nKDmSSC1NmRSlT4974jC87NIeDxaoi4CpLVJW76EogdfLXLzKfD9vPA)]
-
-- A generalized network with domain invariance and specificity representation for bearing remaining useful life prediction under unknown conditions [[KBS 2025](https://www.sciencedirect.com/science/article/pii/S0950705124015491?casa_token=YkE_7QWZliEAAAAA:IOPzRfpg-fSmtuYOXLUZBRvG3XLbtlsd2TYTx5uOC6v9M1Dt19hA6Jx4t1v6v8it5BLO5Tc62w)]
-
-
-
-
-### 2024
-
-- Towards prognostic generalization: a domain conditional invariance and specificity disentanglement network for remaining useful life prediction [[JMS 2024](https://link.springer.com/article/10.1007/s10845-023-02215-z)]
-
-- Domain Invariant and Consistent Ordinal Representation Learning for Remaining Useful Life Prediction of Bearings [[TII 2024](https://ieeexplore.ieee.org/abstract/document/10680885)]
-
-- Domain generalization for rotating machinery real-time remaining useful life prediction via multi-domain orthogonal degradation feature exploration [[MSSP 2024](https://www.sciencedirect.com/science/article/abs/pii/S0888327024008227)]
-
-- Remaining useful life prediction of machinery based on performanceevaluation and online cross-domain health indicator under unknownworking conditions [[JMS 2024](https://www.sciencedirect.com/science/article/pii/S0278612524001328?casa_token=RFcpI7YJdp4AAAAA:oom_6YMx4BUDEZeAon2wrLXhtEb2xQnwkCf2ErgrKpD5nY89_Zt6ASkfA8KGEu2jkPm4BvP95Blg)]
-
-- A Life-Stage Domain Aware Network for Bearing Health Prognosis Under Unseen Temporal Distribution Shift [[TIM 2024](https://ieeexplore.ieee.org/abstract/document/10443638)]
-
-- Uncertainty-Weighted Domain Generalization for Remaining Useful Life Prediction of Rolling Bearings under Unseen Conditions [[IEEE Sensors 2024](https://ieeexplore.ieee.org/abstract/document/10444662)]
-
-- An Optimal-Subdomain Generalization Method for Remaining Useful Life Prediction of Machinery Under Time-Varying Operation Conditions [[TII 2024](https://ieeexplore.ieee.org/abstract/document/10376342)]
-
-### 2023
-
-- Domain generalization via adversarial out-domain augmentation for remaining useful life prediction ofbearings under unseen conditions [[KBS 2023](https://www.sciencedirect.com/science/article/pii/S0950705122012953?casa_token=KeaYUYWrSOEAAAAA:sTbCUiXyakT3vc_gPsb3CDjS6hMhjL2dtQPf4UTZURoxtdHkuWl6uJ4tVqEKbVPClfEq9c2n)]
-
-- Towards prognostic generalization: a domain conditional invariance and specificity disentanglement network for remaining useful life prediction [[JMS 2023]( https://link.springer.com/article/10.1007/s10845-023-02215-z)]
-
-### 2022  
-
-- Multi-source domain generalization for degradation monitoring of journal bearings under unseen conditions [[RESS 2022]( https://www.sciencedirect.com/science/article/pii/S0951832022005816?casa_token=88osNTMXjxAAAAAA:m5J55mbQMKDw5UhdtEhXsApiIi8oITCY7lWVM-9H9JGP4uf-gzPX_UFaJzzygFv4t1lRuFF2)]
-
-- Meta domain generalization for smart manufacturing: Tool wear prediction with small data [[JMS 2022]( https://www.sciencedirect.com/science/article/pii/S0278612521002582?casa_token=OXSZPT33GkoAAAAA:M0JFmcB7vITOe80UnmE_jxlMKWGnQOnoq5TGamDxJORjh77NHL-31cl-_LJ7MGmmLcwY-2N9)]
-  
-- Health Assessment of Rotating Equipment With Unseen Conditions Using Adversarial Domain Generalization Toward Self-Supervised Regularization Learning [[IEEE/ASME MEC 2022]( https://ieeexplore.ieee.org/abstract/document/9759507?casa_token=-aIFB7D8tfwAAAAA:jejqlSpb1dvVY_YIL62zBkjBNGZQ8Qoz-PTpYiZyxlYFsKuqETU10mRNR4H4vwsumM-fh-I)]
-
-
 
 
 # Contact
