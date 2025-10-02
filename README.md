@@ -48,18 +48,18 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 ## Post-hoc explainability methods
 <a name="section-id3"></a>
-> Basic setting:class space between mutiple source domains and unseen target domain is same.
+> Post-hoc XIFD methods aim to explain how a trained model produce predictions for any decision-making process with a given input by developing additional explainers or techniques, which can be further categorized into local explainability and global explainability depending on the object and destination of the explanation..
 
 | 0      | 1                                                                                        | 2        | 3        |
 |:-------|:-----------------------------------------------------------------------------------------|:---------|:---------|
 | Class  | Methods                                                                                  | Suit for | Suit for |
-|        |                                                                                          | ML       | DL       |
-| Global | Knowledge distillation [60]                                                              |          |          |
-| Global | Activation maximization: AM [61]                                                         |          |          |
-| Local  | Local approximation method: LIME [62], SP-LIME [63], S-LIME [64], ALIME [65], ILIME [66] |          |          |
-| Local  | Gradient based method: Guided-BP [67], Smooth gradients [68], Integrated gradients [69]  |          |          |
-| Local  | Class activation mapping: CAM [70], Grad-CAM [71], Grad-CAM++ [72], LRP [61],            |          |          |
-| Local  | SHAP based method: SHAP [73]                                                             |          |          |
+                                                                                                  | ML       | DL       |
+| Global | Knowledge distillation [60]                                                              |  Not        |   yes       |
+| Global | Activation maximization: AM [61]                                                         |  not        |    yes      |
+| Local  | Local approximation method: LIME [62], SP-LIME [63], S-LIME [64], ALIME [65], ILIME [66] |  yes        |   yes       |
+| Local  | Gradient based method: Guided-BP [67], Smooth gradients [68], Integrated gradients [69]  |  not        |    yes      |
+| Local  | Class activation mapping: CAM [70], Grad-CAM [71], Grad-CAM++ [72], LRP [61],            |   not       |    yes      |
+| Local  | SHAP based method: SHAP [73]                                                             |    yes      |   yes       |
 
 
 ### Globally explainable methods
