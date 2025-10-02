@@ -82,20 +82,18 @@ Global explainability aims to help people understand the overall logic behind th
 <a name="section-id6"></a>
 Attention mechanisms provide a way to help understand what to focus on during model learning, and it allows the model to automatically and selectively focus on important information and ignore unimportant information when dealing with large amounts of input data in order to achieve transparency and visualization of the decision-making process, which in turn enhances the model explainability.
 ### 1) Non-self-attention-based
-
+#### 2025
 
 ### 2) Self-attention-based
-
+#### 2025
 
 
 ### Physics-informed intelligent fault diagnosis methods
 <a name="section-id7"></a>
 Currently, there are two ways to implement PIFD, where the first way is to establish a physical simulation model (PSM) and generate corresponding data to assist in model training, thereby guiding the model to effectively extract fault features. While the second way embeds physics equations as the loss function of the model to guide model training, such as the recently emerging physics-informed neural networks (PINN).
 ### 1) PSM-based
-
+#### 2025
 ### 2) PINN-based
-
-
 #### 2025
 
 - A Gradient Alignment Federated Domain Generalization Framework for Rotating Machinery Fault Diagnosis [[IOT 2025](https://ieeexplore.ieee.org/abstract/document/10949604)]
@@ -108,11 +106,10 @@ Currently, there are two ways to implement PIFD, where the first way is to estab
 ### Signal Processing-informed Intelligent Fault Diagnosis Methods [Mainstream in the IFD field]
 <a name="section-id8"></a>
 ### 1)	Wavelet-based SPIFD methods 
-
+#### 2025
 ### 2)	Sparse representation based-SPIFD methods
-
+#### 2025
 ### 3)	Other SPIFD methods 
-
 #### 2025
 
 - Dual-contrastive Multi-view Graph Attention Network for Industrial Fault Diagnosis under Domain and Label Shift [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10891912)
