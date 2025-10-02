@@ -1,13 +1,25 @@
-# Domain-generalization-for-fault-diagnosis-and-prognosis 领域泛化方法用于故障诊断和预测
+# Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights 基于可解释人工智能的智能故障诊断：从应用到洞察的系统回顾
 
 # ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) ![Last update](https://img.shields.io/badge/Last%20update-20250628-blue) ![Paper number](https://img.shields.io/badge/Paper%20Number-169-orange)
 
-This is a repository about **Domain Generalization for PHM**, including papers, code, datasets etc. 
+This is a repository about **Explainable intelligent fault diagnosis methods**, including papers, code, datasets etc. 
 
 We will continue to update this repository and hope this repository can benefit your research.
 
-![Image 1](https://github.com/CHAOZHAO-1/DG-PHM/blob/main/IMG2/combined_plot.png)
+![Image 1](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/XIFD.jpg)
 
+# BibTex Citation
+
+If you find this paper and repository useful, please cite our paper☺️.
+
+```
+@article{XIFD_LTF,
+  title={Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights},
+  author={Li, Tianfu, Chen Junfan, Liu Tao, Sun Chuang, Zhao Zhibin, Chen Xuefeng, Yan Ruqiang},
+  journal={Reliability Engineering & System Safety},
+  pages={109964},
+  year={2026}
+}
 
 # Overview
 - [1. Papers for Fault Diagnosis](#section-id1)
@@ -621,26 +633,7 @@ We will continue to update this repository and hope this repository can benefit 
 
 If you have any problem, please feel free to contact me.
 
-Name: Chao Zhao
+Name: Tianfu Li
 
-Email address: zhaochao0612@gmail.com
+Email address: tianfu.li@kust.edu.cn
 
-
-# BibTex Citation
-
-If you find this paper and repository useful, please cite our paper☺️.
-
-```
-@article{Zhao2024domain,
-  title={Domain Generalization for Cross-Domain Fault Diagnosis: an Application-oriented Perspective and a Benchmark Study},
-  author={Zhao, Chao and Zio, Enrico and Shen, Weiming},
-  journal={Reliability Engineering & System Safety},
-  pages={109964},
-  year={2024}
-}
-```
-# Related Projects
-<a name="section-id12"></a>
-- We collect all open source mechanical failure datasets [[Link](https://github.com/CHAOZHAO-1/Machine-Fault-Dataset)]
-  
-- We have sorted out the multi-modal-based fault diagnosis, including data, papers, codes and so on [[Link](https://github.com/CHAOZHAO-1/Awsome-Multi-modal-based-PHM)]
