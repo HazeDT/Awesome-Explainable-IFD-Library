@@ -54,7 +54,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 |:-------|:-----------------------------------------------------------------------------------------|:---------|:---------|
 | Class  | Methods                                                                                  | Suit for | Suit for |
 |        |                                                                                          | ML       | DL       |
-| Global | Knowledge distillation [60]                                                              |  Not        |   yes       |
+| Global | Knowledge distillation [60]                                                              |  not        |   yes       |
 | Global | Activation maximization: AM [61]                                                         |  not        |    yes      |
 | Local  | Local approximation method: LIME [62], SP-LIME [63], S-LIME [64], ALIME [65], ILIME [66] |  yes        |   yes       |
 | Local  | Gradient based method: Guided-BP [67], Smooth gradients [68], Integrated gradients [69]  |  not        |    yes      |
@@ -63,12 +63,18 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 
 ### Globally explainable methods
+Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism
 
+| 0      | 1        |                             | 2                                                                                                                                 
+|:-------|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Method | Literatures                            | Usage and Disadvantages                                                                                                                               |
+| KD     | Ji [74], Zhong [79], Sun [80], Li [75] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
+| AM     | Yang [77], Jia [78]                    | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons             |
 
 
 
 ### Locally explainable methods
-
+Local explainability aims to deeply analyze the decision-making process of the model for each input so that explain its inner logic
 
 - A dual-perspective joint domain generalization network for bearing fault diagnosis under unseen working conditions  [[AEI 2025](https://www.sciencedirect.com/science/article/pii/S1474034625003404)]
 
