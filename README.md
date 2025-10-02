@@ -33,7 +33,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 -   -   - [1.2.2. Physics-informed intelligent fault diagnosis methods](#section-id7)
 -   -   - [1.2.3. Signal Processing-informed Intelligent Fault Diagnosis Methods](#section-id8)
   
-- [2. Data](#section-id9)
+- [2. Open source dataset](#section-id9)
 
 - [3.1. Code for Benchmark](#section-id10)
 
@@ -62,13 +62,13 @@ If you find this paper and repository useful, please cite our paper☺️.
 | Local  | SHAP based method: SHAP [73]                                                             |    yes      |   yes       |
 
 
-### Globally explainable methods
+### 1) Globally explainable methods
 <a name="section-id3"></a>
 Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism
 #### 2025
 
 
-### Locally explainable methods
+### 2) Locally explainable methods
 <a name="section-id4"></a>
 #### 2025
 
@@ -79,19 +79,19 @@ Global explainability aims to help people understand the overall logic behind th
 ### Attention Mechanism Assisted Intelligent Fault Diagnosis Methods 
 <a name="section-id6"></a>
 Attention mechanisms provide a way to help understand what to focus on during model learning, and it allows the model to automatically and selectively focus on important information and ignore unimportant information when dealing with large amounts of input data in order to achieve transparency and visualization of the decision-making process, which in turn enhances the model explainability.
-#### 1. Non-self-attention-based
+#### 1) Non-self-attention-based
 
 
-#### 2. Self-attention-based
+#### 2) Self-attention-based
 
 
 
 ### Physics-informed intelligent fault diagnosis methods
 <a name="section-id7"></a>
 Currently, there are two ways to implement PIFD, where the first way is to establish a physical simulation model (PSM) and generate corresponding data to assist in model training, thereby guiding the model to effectively extract fault features. While the second way embeds physics equations as the loss function of the model to guide model training, such as the recently emerging physics-informed neural networks (PINN).
-### PSMl-based
+### 1) PSM-based
 
-### PINN-based
+### 2) PINN-based
 
 
 #### 2025
@@ -110,154 +110,45 @@ Currently, there are two ways to implement PIFD, where the first way is to estab
 ### 2)	Sparse representation based-SPIFD methods
 
 ### 3)	Other SPIFD methods 
+
 #### 2025
 
-- Dual-contrastive Multi-view Graph Attention Network for Industrial Fault Diagnosis under Domain and Label Shift [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10891912)]
+- Dual-contrastive Multi-view Graph Attention Network for Industrial Fault Diagnosis under Domain and Label Shift [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10891912)
 
 
-- Auxiliary-feature-embedded causality-inspired dynamic penalty networks for open-set domain generalization diagnosis scenario [[AEI 2025](https://www.sciencedirect.com/science/article/abs/pii/S1474034625001132)]
-
-
-- Adaptive reconstruct feature difference network for open set domain generalization fault diagnosis [[EAAI 2025](https://www.sciencedirect.com/science/article/pii/S0952197624020542)]
-
-- A self-improving fault diagnosis method for intershaft bearings with missing training samples [[MSSP 2025](https://www.sciencedirect.com/science/article/pii/S0888327024011592)]
-
-
-### 2024
-
-- A novel domain-private-suppress meta-recognition network based universal domain generalization for machinery fault diagnosis [[KBS 2024](https://www.sciencedirect.com/science/article/abs/pii/S0950705124014096)]
-
-
-- Open-set domain generalization for fault diagnosis through data augmentation and a dual-level weighted mechanism [[AEI 2024](https://www.sciencedirect.com/science/article/abs/pii/S1474034624003513)]
-
-- Curriculum learning-based domain generalization for cross-domain fault diagnosis with category shift [[MSSP 2024](https://www.sciencedirect.com/science/article/pii/S0888327024001936)]
-
-### 2023
-
-- A Novel Multidomain Contrastive-Coding-Based Open-Set Domain Generalization Framework for Machinery Fault Diagnosis [[TII 2023](https://ieeexplore.ieee.org/abstract/document/10382502?casa_token=FxKIZnqwoqgAAAAA:vvJI3TjUhHtASvVmDjK8jIGhvt0j7RO1wy0uL-kmiFSapnJOEkcm8YZJA3UpeZsnpUAeAhE)]
-
-  
-- A Customized Meta-Learning Framework for Diagnosing New Faults From Unseen Working Conditions With Few Labeled Data [[IEEE/ASME MEC 2023](https://ieeexplore.ieee.org/abstract/document/10214410?casa_token=GWKheX--CFQAAAAA:5n_rqYpoPNHdBYoSqSJJRrTiMf2jyMyO1syc5kEauCASvk9OaUXbNILADKzb-LeFuOTKidk)]
-
-### 2022
-
-- Adaptive open set domain generalization network: Learning to diagnose unknown faults under unknown working conditions [[RESS 2022](https://www.sciencedirect.com/science/article/pii/S0951832022003064)][[Code](https://github.com/CHAOZHAO-1/AOSDGN)]
-
-
-## Imbalanced Domain Generalization-based Fault Diagnosis (IDGFD)
-> Sample number for differnt classes in source domains are different.
-<a name="section-id7"></a>
-
-
-
-### 2025
-
-- Imbalanced multidomain generalization fault diagnosis based on prototype-guided supervised contrastive learning with dynamic temperature modulation [[SHM 2025](https://journals.sagepub.com/doi/abs/10.1177/14759217251332517)]
-
-
-- DRSC: Dual-Reweighted Siamese Contrastive Learning Network for Cross-Domain Rotating Machinery Fault Diagnosis With Multi-Source Domain Imbalanced Data [[IoT 2025](https://ieeexplore.ieee.org/abstract/document/10944708)]
-
-- Imbalanced multi-domain generalization method for electro-mechanical actuator fault diagnosis under variable working conditions [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10938387)]
-
-
-### 2024
-
-- Adaptive Variational Sampling-embedded Domain Generalization Network for fault diagnosis with intra-inter-domain class imbalance[[RESS 2024](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007786)]
-
-- A two-stage learning framework for imbalanced semi-supervised domain generalization fault diagnosis under unknown operating conditions [[AEI 2024](https://www.sciencedirect.com/science/article/abs/pii/S1474034624005263)]
-
-
-
-- Multi-domain Class-imbalance Generalization with Fault Relationship-induced Augmentation for Intelligent Fault Diagnosis [[TIM 2024](https://ieeexplore.ieee.org/document/10606303)]
-
-- Long-tailed multi-domain generalization for fault diagnosis of rotating machinery under variable operating conditions [[SHM 2024](https://journals.sagepub.com/doi/10.1177/14759217241256690)]
-
-
-### 2023
-
-- Imbalanced Domain Generalization via Semantic-Discriminative Augmentation for Intelligent Fault Diagnosis [[AEI 2023]( https://www.sciencedirect.com/science/article/pii/S1474034623003907?via%3Dihub)][[Code](https://github.com/CHAOZHAO-1/SDAGN)]
-
-
-
-
-## Single Domain Generalization-based Fault Diagnosis (SDGFD)
-> source samples are only from a single domain.
-<a name="section-id8"></a>
-
-
-### 2025 
-
-
-
--Multi-style adversarial variational self-distillation in randomized domains for single-domain generalized fault diagnosis [[CII 2025](https://www.sciencedirect.com/science/article/pii/S0166361525000843)]
-
-
--A Generic Single-Source Domain Generalization Framework for Fault Diagnosis via Wavelet Packet Augmentation and Pseudo-Domain Generation [[IoT 2025](https://ieeexplore.ieee.org/abstract/document/11015920)]
-
-
-- Addressing unknown faults diagnosis of transport ship propellers system based on adaptive evolutionary reconstruction metric network [[AEI 2025](https://www.sciencedirect.com/science/article/abs/pii/S1474034625001806)]
-
-
-
-- Fault Diagnosis in Rolling Bearings Using Multi-Gaussian Attention and Covariance Loss for Single Domain Generalization [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10902562)]
-
-
-- Dual adversarial and contrastive network for single-source domain generalization in fault diagnosis [[AEI 2025](https://www.sciencedirect.com/science/article/pii/S1474034625000333)]
-
-- SDCGAN: A CycleGAN-Based Single-Domain Generalization Method for Mechanical Fault Diagnosis [[RESS 2025](https://www.sciencedirect.com/science/article/pii/S0951832025000572)]
-
-### 2024 
-
-- Uncertainty-guided adversarial augmented domain networks for single domain generalization fault diagnosis [[Measurement 2024](https://www.sciencedirect.com/science/article/abs/pii/S0263224124015598)]
-
-- Prior knowledge embedding convolutional autoencoder: A single-source domain generalized fault diagnosis framework under small samples [[CII 2024](https://www.sciencedirect.com/science/article/abs/pii/S0166361524000976)][[Code](https://github.com/John-520/PKECA)]
-
-- Simulation data-driven attention fusion network with multi-similarity metric: A single-domain generalization diagnostic method for tie rod bolt loosening of a rod-fastening rotor system [[MEASUREMENT 2024](https://www.sciencedirect.com/science/article/abs/pii/S0263224124014507)]
-
-- Single imbalanced domain generalization network for intelligent fault diagnosis of compressors in HVAC systems under unseen working conditions [[Energy & Buildings  2024](https://www.sciencedirect.com/science/article/pii/S0378778824003086?via%3Dihub)]
-
-- Single Source Cross-Domain Bearing Fault  Diagnosis via Multi-Pseudo Domain Augmented  Adversarial Domain-Invariant Learning [[JIOT 2024](https://ieeexplore.ieee.org/abstract/document/10577994)]
-
-- Single domain generalization method based on anti-causal learning for rotating machinery fault diagnosis [[RESS 2024](https://www.sciencedirect.com/science/article/pii/S0951832024003247)]
-
-- DP2Net: A discontinuous physical property-constrained single-source domain generalization network for tool wear state recognition [[MSSP 2024](https://www.sciencedirect.com/science/article/pii/S0888327024003194)]
-
-- Gradient-based domain-augmented meta-learning single-domain generalization for fault diagnosis under variable operating conditions [[SHM 2024](https://journals.sagepub.com/doi/full/10.1177/14759217241230129)]
-
-- HmmSeNet: A Novel Single Domain Generalization Equipment Fault Diagnosis Under Unknown Working Speed Using Histogram Matching Mixup[[TII 2024](https://ieeexplore.ieee.org/abstract/document/10417861/)]
-
-- Support-Sample-Assisted Domain Generalization via Attacks and Defenses: Concepts, Algorithms, and Applications to Pipeline Fault Diagnosis [[TII 2024](https://ieeexplore.ieee.org/abstract/document/10384769?casa_token=dVxouWGvpSYAAAAA:PfiXfJAyfigutyUOLfRvn_OHFO_9YL8IOEl3Kd_rHodFFSEbfYJ4h9PGh5vYKBw0JkceMfw)]
-
-### 2023
-
-- Single domain generalizable and physically interpretable bearing fault diagnosis for unseen working conditions [[ESA 2023](https://www.sciencedirect.com/science/article/abs/pii/S0957417423029573)]
-
-- Multi-scale style generative and adversarial contrastive networks for single domain generalization fault diagnosis [[RESS 2023](https://www.sciencedirect.com/science/article/pii/S0951832023007937?casa_token=jbSOPupOqNEAAAAA:h_9_4oxKe-zEoM0_zHNFt-b7abKR6OTdDRh-C9hEM0XWUZfj6h9DTJM_wJT-kOOITvEcRKwD)]
-
-- An Adversarial Single-Domain Generalization Network for Fault Diagnosis of Wind Turbine Gearboxes [[J MAR SCI ENG 2023](https://www.mdpi.com/2077-1312/11/12/2384)]
-
-### 2022
-
-- Adversarial Mutual Information-Guided Single Domain Generalization Network for Intelligent Fault Diagnosis [[TII 2022](https://ieeexplore.ieee.org/document/9774938)]
-
-
-# Data
+# Open source dataset
 > There are eight open-source dataset and two self-collected dataset for research of domain generalization-based fault diagnosis.
 <a name="section-id9"></a>
 
 
-| Index 	| Year 	| Dataset Name 	| Component 	| Generation                   	| Working Condition           	| Original data link 	| Alternate data Link 	|
-|-------	|------	|--------------	|-----------	|------------------------------	|-----------------------------	|--------------------	|---------------------	|
-| 1     	| 2006 	| IMS          	| bearing   	| Run to failure               	| Single working condition    	|[[data link](https://www.nasa.gov/intelligent-systems-division)]                    	| [[data link](https://pan.quark.cn/s/003c8060617d)]                    	|
-| 2     	| 2013 	| JNU          	| bearing   	| artifical                    	| Multiple working conditions 	|   /                 	|              [[data link](https://pan.quark.cn/s/b2344c54c6d7)]            	|
-| 3     	| 2015 	| CWRU         	| bearing   	| artifical                    	| Multiple working conditions 	|[[data link](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website)]                    	|        [[data link](https://pan.quark.cn/s/2b0ceb12ab5a)]                 	|
-| 4     	| 2016 	| PU           	| bearing   	| artifical and run to failure 	| Multiple working conditions 	|[[data link](https://mb.uni-paderborn.de/kat/forschung/datacenter/bearing-datacenter/)]                    	|                   [[data link](https://pan.quark.cn/s/98940eefefb2)]    	|
-| 5     	| 2016 	| SCP          	| bearing   	| artifical                    	| Single working condition    	|      /              	|         [[data link](https://pan.quark.cn/s/6ccea2154a06)]                	| 
-| 6     	| 2018 	| XJTU         	| bearing   	| Run to failure               	| Multiple working conditions 	|[[data link](http://biaowang.tech/xjtu-sy-bearing-datasets/)]                 	|        [[data link](https://pan.quark.cn/s/073484fd0bb0)]                     	|
-| 7     	| 2018 	| PHM09        	| gearbox   	| artifical                    	| Multiple working conditions 	|   /                 	|        [[data link](https://pan.quark.cn/s/88180e4fccde)]               	|
-| 8     	| 2021 	| LW           	| bearing   	| artifical                    	| Multiple working conditions 	|[[data link](https://github.com/ChaoyingYang/SuperGraph)]               	|        [[data link](https://pan.quark.cn/s/7e881548f5a1)]                       	|
-| 9     	| 2022 	| HUSTbearing  	| bearing   	| artifical                    	| Multiple working conditions 	|     /               	|         [[data link](https://github.com/CHAOZHAO-1/HUSTbearing-dataset)]               	|       
-| 10    	| 2022 	| HUSTgearbox  	| gearbox    	| artifical                    	| Multiple working conditions 	|    /                	|         [[data link](https://github.com/CHAOZHAO-1/HUSTgearbox-dataset)]              	|
+| 0                 | 1                 | 2                                        | 3                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:------------------|:------------------|:-----------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Task              | Dataset           | Object                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Anomaly detection | MIMII [30]        | Valve, pump, fan, slide rail             | This dataset is a sound dataset that simulates the sound of components such as valves, pumps, fans, and slides under normal and abnormal conditions. The data was recorded by an 8-channel microphone array and simulated the impact of noise in a real factory.                                                                                                                                                  |
+| Anomaly detection | MIMII DG [31]     | Fan, gearbox, bearing, slide rail, valve | The dataset contains sound recordings from five types of industrial machines (fan, gearbox, bearing, slide rail, valve), collected under multiple domain-shift scenarios. Each audio clip is about 10 seconds long, sampled at 16 kHz using a TAMAGO-03 microphone in soundproof or anechoic chambers.                                                                                                            |
+| Anomaly detection | ToyADMOS [32]     | Micromachines                            | The dataset is the first large-scale dataset for anomalous sound detection in machine operations, featuring around 540 hours of normal sounds and over 12,000 anomalous samples recorded with four microphones at a 48 kHz sampling rate.                                                                                                                                                                         |
+| Anomaly detection | IMAD-DS [33]      | Motor & robotic arm                      | This multi-sensor industrial dataset contains normal and faulty operation data from robotic arms and brushless motors. It includes signals from microphones and accelerometers and introduces domain shifts such as variations in load, speed, and background noise.                                                                                                                                              |
+| Anomaly detection | RflyMAD [34]      | Drones                                   | This dataset is used for multi-rotor drone fault detection and health management. It contains data on 11 common faults (such as motor failure, propeller failure, etc.) in six flight states, covering both simulated and real flight scenarios.                                                                                                                                                                  |
+| Anomaly detection | PyScrew [35]      | Screw                                    | The dataset collects data from six screw tightening scenarios, including more than 34,000 industrial screw tightening operations, covering various health conditions such as thread wear, surface friction, and assembly failures.                                                                                                                                                                                |
+| Diagnosis         | CWRU [36]         | Bearing                                  | The dataset consists of four sub-datasets, each with operating conditions of 0 hp - 1797 rpm, 1 hp - 1772 rpm, 2 hp - 1750 rpm, and 3 hp - 1730 rpm. The motor bearing faults include ball fault, inner ring fault, and outer ring fault.                                                                                                                                                                         |
+| Diagnosis         | MFPT [37]         | Bearing                                  | This dataset consists of four sets of bearing vibration data. In the first sub-dataset, it contains three baseline conditions. In the second sub-dataset, it contains three outer race fault conditions. In the third sub-dataset, it contains seven outer race fault conditions with seven different loads. In the fourth sub-dataset, it contains seven inner race fault conditions with seven different loads. |
+| Diagnosis         | PU [38]           | Bearing                                  | The dataset contains 32 sub-files, including 26 faulty bearings and 6 healthy bearings. The faulty bearings include 12 artificial damages caused by EDM and 14 real damages caused by accelerated life tests.                                                                                                                                                                                                     |
+| Diagnosis         | JNU [39]          | Bearing                                  | The dataset contains four types of bearing faults, including normal state, ball fault, inner race fault, and outer race fault. Vibration data were collected under three different working conditions, with the motor speeds set to 600, 800, and 1000 rpm, respectively.                                                                                                                                         |
+| Diagnosis         | HIT [40]          | Bearing                                  | This dataset is for aero-engine inter-shaft bearing failure. The test bench consists of a modified aero-engine, a motor drive system and a lubricating oil system. The experiment collected data of one outer ring failure and two bearing inner ring failures at high- and low-pressure rotors at 28 different speeds.                                                                                           |
+| Diagnosis         | VATM [41]         | Bearing& rotor                           | This dataset is a multi-sensor dataset that collects vibration, acoustic, temperature and drive current data of bearing inner and outer rings, shaft misalignment, rotor imbalance and other faults under three different torque load conditions.                                                                                                                                                                 |
+| Diagnosis         | HUSTBearing [21]  | Bearing                                  | This dataset collects 9 different failure modes, including 2 groups of bearing failure data at 4 different speeds.                                                                                                                                                                                                                                                                                                |
+| Diagnosis         | XJTUSuprgear [23] | Gear                                     | This dataset collects the failure data of spur gears with four different degrees of tooth root cracks under three different working conditions, that is, 900rpm, 1200rpm, and 0-1200rpm-0.                                                                                                                                                                                                                        |
+| Diagnosis         | SEU [42]          | Gearbox                                  | The dataset includes four fault types: broken tooth, missing tooth, tooth root crack, and tooth surface wear; the bearing dataset includes four fault types: ball fault, inner ring fault, outer ring fault, and mixed fault.                                                                                                                                                                                     |
+| Diagnosis         | XJTUGearbox [23]  | Gearbox                                  | This dataset collects fault datasets of 4 types of gear faults (tooth surface wear, missing teeth, tooth root cracks and broken teeth) and 4 types of bearing faults (inner ring, outer ring, rolling element and mixed faults).                                                                                                                                                                                  |
+| Diagnosis         | WT-Gearbox [43]   | Gearbox                                  | This dataset collects broken teeth, tooth surface wear, tooth root cracks, and missing tooth faults in the gearbox. Eight working conditions are considered for each fault. In addition to the X and Y axis vibration signals, the main shaft encoding signal is also collected to consider the impact of equipment disassembly and assembly on the monitoring signal.                                            |
+| Diagnosis         | UoC [44]          | Gearbox                                  | In this dataset, the pinion gear mounted on the input shaft was introduced into nine different healthy conditions, including root crack, healthy, spalled, missing teeth, and sharpening, with five different severity levels.                                                                                                                                                                                    |
+| Prognosis         | CMAPSS [45]       | Aero-engine                              | This dataset is open-source aviation engine performance degradation data from NASA and consists of four sub-datasets, which are engine performance degradation data under different operating conditions and failure mode combinations                                                                                                                                                                            |
+| Prognosis         | N-CMAPSS [46]     | Aero-engine                              | This dataset was also generated by simulation using the CMAPSS software developed by NASA and ETH. It contains 8 subsets, simulating the performance degradation data of 128 engines under 7 different failure modes.                                                                                                                                                                                             |
+| Prognosis         | PHM2010 [47]      | Tool                                     | This dataset is the open-source tool wear data of the 2010 PHM competition at different speeds, feed rates, and cutting depths. It consists of 6 sub datasets, each containing 315 samples.                                                                                                                                                                                                                       |
+| Prognosis         | IMS [48]          | Bearing                                  | This dataset is a dataset of a bearing run-to-failure experiment. The dataset consists of three subsets, each of which contains the performance degradation data of four bearings.                                                                                                                                                                                                                                |
+| Prognosis         | FEMTO-ST [49]     | Bearing                                  | This dataset is the open-source bearing performance degradation data of the 2012 PHM competition, which includes bearing data under three different working conditions.                                                                                                                                                                                                                                           |
+| Prognosis         | XJTU-SY [50]      | Bearing                                  | This dataset contains the full-life cycle vibration signals of 15 rolling bearings under three working conditions, and clearly marks the failure location of each bearing.                                                                                                                                                                                                                                        |
+| Prognosis         | GearLifeCyle [51] | Gear                                     | This dataset is the full-life vibration data of gears generated by gear fatigue tests conducted using the FZG gear contact fatigue test bench, and includes performance degradation data collected under four operating conditions.                                                                                                                                                                               |
 
 
 
