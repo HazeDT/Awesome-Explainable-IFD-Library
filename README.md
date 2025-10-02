@@ -44,28 +44,34 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 # Papers
 > We list papers, implementation code (the unofficial code is marked with *), etc, in the order of year.
-<a name="section-id1"></a>
-
-## Survey （综述）
-<a name="section-id2"></a>
-
-### 2025
-
-- Applications of domain generalization to machine fault diagnosis: A survey [[IEEE/CAA Journal of Automatica Sinica 2025](https://ieeexplore.ieee.org/abstract/document/10965929)] 
-
-- Domain generalization for rotating machinery fault diagnosis: A survey [[AEI 2025](https://www.sciencedirect.com/science/article/pii/S1474034624007146)] 
-
-### 2024
-
-- Domain Generalization for Cross-Domain Fault Diagnosis: an Application-oriented Perspective and a Benchmark Study [[RESS 2024](https://www.sciencedirect.com/science/article/abs/pii/S0951832024000395?via%3Dihub)] （第一篇关于DGFD的综述）
 
 
-### Homogeneous domain generalization-based fault diagnosis (HDGFD)
+### Post-hoc explainability methods
 <a name="section-id3"></a>
 > Basic setting:class space between mutiple source domains and unseen target domain is same.
+Table 3. The Post-hoc XIFD methods. 
+Class	Methods	Suit for
+		ML	DL
+Global		Knowledge distillation [48] 
+	
+		Activation maximization: AM [49]
+	
+Local		Local approximation method: LIME [50], SP-LIME [51], S-LIME [52], ALIME [53], ILIME [54]
+	
+		Gradient based method: Guided-BP [55], Smooth gradients [56], Integrated gradients [57]
+	
+		Class activation mapping: CAM [58], Grad-CAM [59], Grad-CAM++ [60], LRP [49],
+	
+		SHAP based method: SHAP [61]
+	
 
 
-### 2025
+### Globally explainable methods
+
+
+
+
+### Locally explainable methods
 
 
 - A dual-perspective joint domain generalization network for bearing fault diagnosis under unseen working conditions  [[AEI 2025](https://www.sciencedirect.com/science/article/pii/S1474034625003404)]
