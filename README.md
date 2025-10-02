@@ -53,7 +53,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 | 0      | 1                                                                                        | 2        | 3        |
 |:-------|:-----------------------------------------------------------------------------------------|:---------|:---------|
 | Class  | Methods                                                                                  | Suit for | Suit for |
-                                                                                                  | ML       | DL       |
+|        |                                                                                          | ML       | DL       |
 | Global | Knowledge distillation [60]                                                              |  Not        |   yes       |
 | Global | Activation maximization: AM [61]                                                         |  not        |    yes      |
 | Local  | Local approximation method: LIME [62], SP-LIME [63], S-LIME [64], ALIME [65], ILIME [66] |  yes        |   yes       |
