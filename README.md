@@ -47,7 +47,7 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 
 ## Post-hoc explainability methods
-<a name="section-id3"></a>
+<a name="section-id2"></a>
 > Post-hoc XIFD methods aim to explain how a trained model produce predictions for any decision-making process with a given input by developing additional explainers or techniques, which can be further categorized into local explainability and global explainability depending on the object and destination of the explanation..
 
 | 0      | 1                                                                                        | 2        | 3        |
@@ -63,97 +63,54 @@ If you find this paper and repository useful, please cite our paper☺️.
 
 
 ### Globally explainable methods
+<a name="section-id3"></a>
 Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism
-### 2025
+#### 2025
 
 
 ### Locally explainable methods
-### 2025
+<a name="section-id4"></a>
+#### 2025
 
-### 2024
+#### 2024
 
 ## Ante-hoc explainability methods
+<a name="section-id5"></a>
 ### Attention Mechanism Assisted Intelligent Fault Diagnosis Methods 
-- [1. Non-self-attention-based]
+<a name="section-id6"></a>
+Attention mechanisms provide a way to help understand what to focus on during model learning, and it allows the model to automatically and selectively focus on important information and ignore unimportant information when dealing with large amounts of input data in order to achieve transparency and visualization of the decision-making process, which in turn enhances the model explainability.
+#### 1. Non-self-attention-based
+
+
+#### 2. Self-attention-based
+
+
 
 ### Physics-informed intelligent fault diagnosis methods
+<a name="section-id7"></a>
+Currently, there are two ways to implement PIFD, where the first way is to establish a physical simulation model (PSM) and generate corresponding data to assist in model training, thereby guiding the model to effectively extract fault features. While the second way embeds physics equations as the loss function of the model to guide model training, such as the recently emerging physics-informed neural networks (PINN).
+### PSMl-based
 
-### 2025
+### PINN-based
+
+
+#### 2025
 
 - A Gradient Alignment Federated Domain Generalization Framework for Rotating Machinery Fault Diagnosis [[IOT 2025](https://ieeexplore.ieee.org/abstract/document/10949604)]
 
 
 - Federated Domain Generalization for Fault Diagnosis: Cross-Client Style Integration and Dual Alignment Representation [[IOT 2025](https://ieeexplore.ieee.org/document/10926881)]
-
-### 2024
-
-
-- Heterogeneous Federated Learning: Client-side Collaborative Update Inter-Domain Generalization Method for Intelligent Fault Diagnosis
- [[IOT 2024](https://ieeexplore.ieee.org/abstract/document/10742072)][[Code](https://github.com/JC952/P2PCHF)]
-
-- FedITA: A cloud–edge collaboration framework for domain generalization-based federated fault diagnosis of machine-level industrial motors [[AEI 2024](https://www.sciencedirect.com/science/article/pii/S1474034624005019)]
-
-- A blockchain-empowered secure federated domain generalization framework for machinery fault diagnosis [[AEI 2024](https://www.sciencedirect.com/science/article/abs/pii/S147403462400404X)]
-
-- Heterogeneous Federated Domain Generalization Network With Common Representation Learning for Cross-Load Machinery Fault Diagnosis [[TSMC 2024](https://ieeexplore.ieee.org/abstract/document/10571357)][[Code](https://github.com/QinYi-team/HFDGN)]
-
-- Decentralized federated domain generalization with cluster alignment for fault diagnosis [[Control Engineering Practice 2024](https://www.sciencedirect.com/science/article/pii/S0967066124001114?via%3Dihub)]
-
-- Fusing consensus knowledge: A federated learning method for fault diagnosis via privacy-preserving reference under domain shift [[IF 2024](https://www.sciencedirect.com/science/article/pii/S156625352400068X)]
-
-- A federated distillation domain generalization framework for machinery fault diagnosis with data privacy [[EAAI 2024](https://www.sciencedirect.com/science/article/pii/S0952197623019498?casa_token=tI8xLle0uTAAAAAA:G8yUEWhMpz25pJg57bcCgcSk96pKBzrqEyqpkOM_71cPJgeV4HszpOuAASSqHxuB8POGv__p)][[Code](https://github.com/CHAOZHAO-1/FDDG)]
-  
-### 2023
-
-- Federated domain generalization for intelligent fault diagnosis based on pseudo‑siamese network and robust global model aggregation [[IJMLC 2023](https://link.springer.com/article/10.1007/s13042-023-01934-2)]
-
-- Federated Domain Generalization With Global Robust Model Aggregation Strategy For Bearing Fault Diagnosis [[MST 2023](https://iopscience.iop.org/article/10.1088/1361-6501/ace841/meta)]
-
-
-- Federated Domain Generalization: A Secure and Robust Framework for Intelligent Fault Diagnosis [[TII 2023]( https://ieeexplore.ieee.org/abstract/document/10196327)][[Code](https://github.com/CHAOZHAO-1/FedDGMC)]
   
 
-- Federated adversarial domain generalization network: A novel machinery fault diagnosis method with data privacy [[KBS 2023](https://www.sciencedirect.com/science/article/pii/S095070512200973X?casa_token=cIa6MEtheM4AAAAA:MPW_GJCNCNQOuFuwA_3Gv8UvXt_PQaG6q7n6E1DijbTWQBwzf5Uk_JfEFduaIokD1sj3o4AJ)]
 
-  
-### Semisupervised Domain Generalization-based Fault Diagnosis (SemiDGFD)
+### Signal Processing-informed Intelligent Fault Diagnosis Methods [Mainstream in the IFD field]
+<a name="section-id8"></a>
+### 1)	Wavelet-based SPIFD methods 
 
-> One source domain are labeled and other source domains are unlabeled.
-<a name="section-id5"></a>
+### 2)	Sparse representation based-SPIFD methods
 
-### 2025
-
-- Domain knowledge guided pseudo-label generation framework for semi-supervised domain generalization fault diagnosis [[AEI 2025](https://www.sciencedirect.com/science/article/pii/S1474034625004331)]
-
-### 2024
-
-- An Auxiliary Branch Semi-supervised Domain Generalization Network for Unseen Working Conditions Bearing Fault Diagnosis [[IEEE SENSOR 2024](https://ieeexplore.ieee.org/abstract/document/10735114)]
-
-- Contrast-Assisted Domain-Specificity-Removal Network for Semi-Supervised Generalization Fault Diagnosis [[TNNLS 2024](https://ieeexplore.ieee.org/document/10495144)]
-
-
-### 2023
-
-- Domain-invariant feature fusion networks for semi-supervised generalization fault diagnosis [[EAAI 2023]( https://www.sciencedirect.com/science/article/pii/S0952197623013015)]
-
-- Domain fuzzy generalization networks for semi-supervised intelligent fault diagnosis under unseen working conditions [[MSSP 2023]( https://www.sciencedirect.com/science/article/pii/S0888327023004879)]
-
-- Mutual-assistance semisupervised domain generalization network for intelligent fault diagnosis under unseen working conditions [[MSSP 2023](https://www.sciencedirect.com/science/article/pii/S0888327022011426)][[Code](https://github.com/CHAOZHAO-1/MSDGN)]
-
-- A New Adversarial Domain Generalization Network Based on Class Boundary Feature Detection for Bearing Fault Diagnosis [[TIM 2023](https://ieeexplore.ieee.org/document/9745907)]
-
-### 2020
-
-- Deep Semisupervised Domain Generalization Network for Rotary Machinery Fault Diagnosis Under Variable Speed [[TIM 2020](https://ieeexplore.ieee.org/document/9088148)]
-
-
-
-### Open Set Domain Generalization-based Fault Diagnosis (OSDGFD)
-> Class space among multiple source domains and unseen target domain is different.
-<a name="section-id6"></a>
-
-
-### 2025
+### 3)	Other SPIFD methods 
+#### 2025
 
 - Dual-contrastive Multi-view Graph Attention Network for Industrial Fault Diagnosis under Domain and Label Shift [[TIM 2025](https://ieeexplore.ieee.org/abstract/document/10891912)]
 
