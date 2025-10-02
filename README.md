@@ -21,6 +21,11 @@ If you find this paper and repository useful, please cite our paper☺️.
   year={2026}
 }
 ```
+# Task specification for IFD
+
+IFD consists of four main tasks, that is, machine anomaly detection (AD), fault diagnosis (FD), remaining useful life (RUL) prediction, and cross-domain IFD, as shown below. 
+
+
 # Overview
 
 - [1. XIFD](#section-id1)
@@ -35,11 +40,8 @@ If you find this paper and repository useful, please cite our paper☺️.
   
 - [2. Open source dataset](#section-id9)
 
-- [3.1. Code for Benchmark](#section-id10)
+- [3. Code for open Source XIFD methods](#section-id10)
 
-- [3.2. Code for Method Paper](#section-id11)
-
-- [4. Papers for Prognosis](#section-id12)
 
 
 # Papers
@@ -150,8 +152,8 @@ Currently, there are two ways to implement PIFD, where the first way is to estab
 
 
 
-# Code for Method Paper
-<a name="section-id13"></a>
+# Code for open Source XIFD methods
+<a name="section-id10"></a>
 |  Title  |   Journal  |   Date   |   Code   |   topic   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 |[**Conditional Contrastive Domain Generalization For Fault Diagnosis**](https://ieeexplore.ieee.org/abstract/document/9721021) <br> | TIM | 2022 | [Github](https://github.com/mohamedr002/CCDG) | DGFD |
@@ -164,12 +166,6 @@ Currently, there are two ways to implement PIFD, where the first way is to estab
 |[**Adaptive open set domain generalization network: Learning to diagnose unknown faults under unknown working conditions**](https://www.sciencedirect.com/science/article/pii/S0951832022003064) <br> | RESS | 2022 | [Github](https://github.com/CHAOZHAO-1/AOSDGN) | OSDGFD |
 
 
-
-# Talk
-<a name="section-id14"></a>
-
-
-- [苏州大学沈长青教授：从域适应到域泛化：人工智能驱动的故障诊断模型探索](https://www.bilibili.com/video/BV1V34y1q758/?spm_id_from=333.337.search-card.all.click&vd_source=ec846a76720b6da306d5919873954ab5)
 
 
 # Contact
