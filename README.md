@@ -49,21 +49,16 @@ If you find this paper and repository useful, please cite our paper☺️.
 ## Post-hoc explainability methods
 <a name="section-id3"></a>
 > Basic setting:class space between mutiple source domains and unseen target domain is same.
-Table 3. The Post-hoc XIFD methods. 
-Class	Methods	Suit for
-		ML	DL
-Global		Knowledge distillation [48] 
-	
-		Activation maximization: AM [49]
-	
-Local		Local approximation method: LIME [50], SP-LIME [51], S-LIME [52], ALIME [53], ILIME [54]
-	
-		Gradient based method: Guided-BP [55], Smooth gradients [56], Integrated gradients [57]
-	
-		Class activation mapping: CAM [58], Grad-CAM [59], Grad-CAM++ [60], LRP [49],
-	
-		SHAP based method: SHAP [61]
-	
+| 0      | 1                                                                                        | 2        | 3        |
+|:-------|:-----------------------------------------------------------------------------------------|:---------|:---------|
+| Class  | Methods                                                                                  | Suit for | Suit for |
+|        |                                                                                          | ML       | DL       |
+| Global | Knowledge distillation [60]                                                              |          |          |
+| Global | Activation maximization: AM [61]                                                         |          |          |
+| Local  | Local approximation method: LIME [62], SP-LIME [63], S-LIME [64], ALIME [65], ILIME [66] |          |          |
+| Local  | Gradient based method: Guided-BP [67], Smooth gradients [68], Integrated gradients [69]  |          |          |
+| Local  | Class activation mapping: CAM [70], Grad-CAM [71], Grad-CAM++ [72], LRP [61],            |          |          |
+| Local  | SHAP based method: SHAP [73]                                                             |          |          |
 
 
 ### Globally explainable methods
