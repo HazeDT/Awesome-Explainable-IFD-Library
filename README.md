@@ -1,6 +1,6 @@
 # Awesome-Explainable-IFD-Library
 ## [Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights](https://www.sciencedirect.com/science/article/pii/S0888327021009791)
-![Explainable-IFD framework](https://github.com/HazeDT/PHMGNNBenchmark/blob/main/logo2.png)
+![XIFD framework](https://github.com/HazeDT/Awesome-Explainable-IFD-Library/blob/main/XIFD.jpg)
 
 
 # Citation of this paper:
