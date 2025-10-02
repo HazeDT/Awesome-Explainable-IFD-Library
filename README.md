@@ -65,11 +65,11 @@ If you find this paper and repository useful, please cite our paper☺️.
 ### Globally explainable methods
 Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism
 
-| 0      | 1        |                             | 2                                                                                                                                 
+| 0      | 1                                      | 2                                                                                                                                                     |
 |:-------|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Method | Literatures                            | Usage and Disadvantages                                                                                                                               |
-| KD     | Ji [74], Zhong [79], Sun [80], Li [75] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
-| AM     | Yang [77], Jia [78]                    | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons             |
+| knowledge distillation (KD)     | Ji [74], Zhong [79], Sun [80], Li [75] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
+| Activation maximization (AM)     | Yang [77], Jia [78]                    | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons             |
 
 
 
