@@ -18,7 +18,7 @@ If you find this paper and repository useful, please cite our paper☺️.
   title={Explainable artificial intelligence based intelligent fault diagnosis: A systematic review from applications to insights},
   author={Li, Tianfu, Chen Junfan, Liu Tao, Sun Chuang, Zhao Zhibin, Chen Xuefeng, Yan Ruqiang},
   journal={Reliability Engineering & System Safety},
-  pages={109964},
+  pages={111935},
   year={2026}
 }
 ```
