@@ -75,10 +75,14 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 | AM | Yang [[MST 2022](https://iopscience.iop.org/article/10.1088/1361-6501/ac41a5)], Jia [[MSSP 2018](https://www.sciencedirect.com/science/article/pii/S0888327018301444)] | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons. |
 
 
-
 ### 2) Locally explainable methods
 <a name="section-id4"></a>
-#### 2025
+> Local explainability aims to deeply analyze the decision-making process of the model for a specific input sample and its neighborhood.
+>  LIME-based methods
+
+
+
+
 
 #### 2024
 
