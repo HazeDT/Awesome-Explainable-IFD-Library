@@ -112,6 +112,12 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 | SGG-CAM          | Sun [[Measurement 2022](https://www.sciencedirect.com/science/article/pii/S0263224122000033)]                                                                   | Designed to solve the problem of insufficient centralized and accurate activation response of traditional CAM to fault areas |
 | Grad-Absolute-CAM | Li [[Building and Environment 2021](https://www.sciencedirect.com/science/article/pii/S0360132321004595)]                                                                   | Designed to address the issue of traditional Grad-CAM being unable to focus on activating negative feature maps |
 
+#### d.SHAP-based methods
+
+| Method | Literatures                                                                 | Usage and Disadvantages                                                                 |
+|--------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| SHAP   | Groote [[MSSP 2022](https://www.sciencedirect.com/science/article/pii/S0888327021007998)], Ahmad [[Preprints 2021](https://www.preprints.org/frontend/manuscript/0355775a2605b11abe70a6d190e3991d/download_pub)], Li [[TAES 2023](https://ieeexplore.ieee.org/abstract/document/10214393)], Bindingsbø [[Frontiers in Energy Research 2023](https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2023.1284676/full)], Moosavi [[Electronics 2024](https://www.mdpi.com/2079-9292/13/9/1721)], Brusa [[Applied Sciences 2023](https://www.mdpi.com/2076-3417/13/4/2038)], Pham [[ATiGB 2022](https://ieeexplore.ieee.org/abstract/document/9984085)], Hasan [Sensors 2021](https://www.mdpi.com/1424-8220/21/12/4070)], Yan [[EAAI 2024](https://www.sciencedirect.com/science/article/pii/S0952197624012041)], Jang [[TII 2023](https://ieeexplore.ieee.org/abstract/document/10032092)], Santos [[MLKE 2024](https://www.mdpi.com/2504-4990/6/1/16)] | Can explain the effect of features on the model’s predictions, but it cannot provide an explanation of the causal relationship between the features and the results. |
+
 
 ## Ante-hoc explainability methods
 <a name="section-id5"></a>
