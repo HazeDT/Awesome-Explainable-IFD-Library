@@ -47,7 +47,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 
 
 # Papers
-> **We list papers, implementation code (the unofficial code is marked with *), etc, in the order of year.**
+> We list papers, implementation code (the unofficial code is marked with *), etc, in the order of year.
 
 
 ## Post-hoc explainability methods
