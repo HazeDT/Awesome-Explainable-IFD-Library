@@ -52,7 +52,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 
 ## Post-hoc explainability methods
 <a name="section-id2"></a>
-> Post-hoc XIFD methods aim to explain how a trained model produce predictions for any decision-making process with a given input by developing additional explainers or techniques, which can be further categorized into local explainability and global explainability depending on the object and destination of the explanation..
+> Post-hoc XIFD methods aim to explain how a trained model produce predictions for any decision-making process with a given input by developing additional explainers or techniques, which can be further categorized into local explainability and global explainability depending on the object and destination of the explanation.
 
 | Class      | Methods                                                                         | Suit for       | Suit for        |
 |:-------|:-----------------------------------------------------------------------------------------|:---------|:---------|
