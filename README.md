@@ -94,8 +94,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 | Method              | Literatures          | Usage and Disadvantages |
 |---------------------|-----------------------|---------------------------|
 | Guided-BP           | ——                    | The target features are relatively concentrated. |
-| Integrated gradients | Li [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Du [[
-Sensors 2022](https://www.mdpi.com/1424-8220/22/22/8760)]      | Explain that within CNN, there is less noise in the features. |
+| Integrated gradients | Li [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Du [[Sensors 2022](https://www.mdpi.com/1424-8220/22/22/8760)]      | Explain that within CNN, there is less noise in the features. |
 | Smooth gradients     | Peng [[ISA Transactions 2022](https://www.sciencedirect.com/science/article/pii/S0019057821003219)]             | Positioning image decision features, unable to quantify contribution. |
 
 #### c.Class activation mapping-based methods
