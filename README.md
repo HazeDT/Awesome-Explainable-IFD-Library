@@ -59,7 +59,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 |        |                                                                                          | ML       | DL       |
 | Global | Knowledge distillation [[IJCV 2021](https://link.springer.com/article/10.1007/s11263-021-01453-z)]                                                              |  not        |   yes       |
 | Global | Activation maximization: AM [[ADLT 2024](https://www.thesciencebrigade.org/adlt/article/view/328)]                                                         |  not        |    yes      |
-| Local  | Local approximation method: LIME [[ISMIR 2017](https://www.scopus.com/pages/publications/85063089874)], SP-LIME [[KDD 2016](https://dl.acm.org/doi/10.1145/2939672.2939778)], S-LIME [64], ALIME [65], ILIME [66] |  yes        |   yes       |
+| Local  | Local approximation method: LIME [[ISMIR 2017](https://www.scopus.com/pages/publications/85063089874)], SP-LIME [[KDD 2016](https://dl.acm.org/doi/10.1145/2939672.2939778)], S-LIME [[KDD 2021](https://dl.acm.org/doi/10.1145/3447548.3467274)], ALIME [65], ILIME [66] |  yes        |   yes       |
 | Local  | Gradient based method: Guided-BP [67], Smooth gradients [68], Integrated gradients [69]  |  not        |    yes      |
 | Local  | Class activation mapping: CAM [70], Grad-CAM [71], Grad-CAM++ [72], LRP [61],            |   not       |    yes      |
 | Local  | SHAP based method: SHAP [73]                                                             |    yes      |   yes       |
