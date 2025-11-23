@@ -78,7 +78,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 ### 2) Locally explainable methods
 <a name="section-id4"></a>
 > Local explainability aims to deeply analyze the decision-making process of the model for a specific input sample and its neighborhood.
-### a.LIME-based methods
+#### a.LIME-based methods
 
 
 
