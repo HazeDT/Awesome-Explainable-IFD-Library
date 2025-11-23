@@ -71,8 +71,8 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 
 | Method | Literatures | Usage and Disadvantages |
 |--------|-------------|--------------------------|
-| KD | Ji [75], Zhong [80], Sun [81], Li [76] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
-| AM | Yang [78], Jia [79] | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons. |
+| KD | Ji [[ASC 2022](https://doi.org/10.1016/j.asoc.2022.109331)], Zhong [[IEEE Sens. J 2023](https://ieeexplore.ieee.org/abstract/document/10110402)], Sun [[TIM 2023](https://ieeexplore.ieee.org/abstract/document/10110403)], Li [[KBS 2022](https://doi.org/10.1016/j.knosys.2022.108345)] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
+| AM | Yang [[MST 2022](https://doi.org/10.1088/1361-6501/ac5e7a)], Jia [[MSSP 2018](https://doi.org/10.1016/j.ymssp.2018.03.024)] | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons. |
 
 
 
