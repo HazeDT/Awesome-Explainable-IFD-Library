@@ -68,7 +68,12 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 ### 1) Globally explainable methods
 <a name="section-id3"></a>
 > Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism.
-#### 2025
+
+| Method | Literatures | Usage and Disadvantages |
+|--------|-------------|--------------------------|
+| KD | Ji [75], Zhong [80], Sun [81], Li [76] | Can explain the decision-making process of a complex model through a simple model, but ignores the knowledge representation within the complex model. |
+| AM | Yang [78], Jia [79] | Can visualize the input preferences of each neuron, but it does not directly explain why these features lead to the activation of neurons. |
+
 
 
 ### 2) Locally explainable methods
