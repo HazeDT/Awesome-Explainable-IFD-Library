@@ -78,13 +78,16 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 ### 2) Locally explainable methods
 <a name="section-id4"></a>
 > Local explainability aims to deeply analyze the decision-making process of the model for a specific input sample and its neighborhood.
+
 #### a.LIME-based methods
 
-
-
-
-
-#### 2024
+| Method    | Literatures                                                                 | Usage and Disadvantages |
+|-----------|-------------------------------------------------------------------------------|---------------------------|
+| LIME      | Yao [[ASME 2021](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2021/V004T05A008/1119988)], Al-Zeyadi [[IJCNN 2020](https://ieeexplore.ieee.org/document/9206972)], Sanakkayala [86], Akin [[Micromachines 2022](https://www.mdpi.com/2072-666X/13/9/1471)], Khan [[UT 2024](https://essay.utwente.nl/fileshare/file/101027/Akin_BA_EEMCS.pdf)], Gawde [[DAJ 2024](https://www.sciencedirect.com/science/article/pii/S2772662224000298)], [[IEEE Access 2024](https://ieeexplore.ieee.org/document/10440027)], Li [90], Lu [91], Mai [92] | Can explain tables, images, and text data, but can only provide explanations for predictions of a single sample, and the explanations are unstable. |
+| SP-LIME   | ——                                                                            | Multiple samples can be explained, and the selected samples need to cover important features, but the algorithm accuracy is low. |
+| S-LIME    | ——                                                                            | Can produce stable explanations, not suitable for time series data. |
+| ILIME     | ——                                                                            | By selecting the most influential samples for prediction, the explanation accuracy is higher, but it is not applicable to text and image data. |
+| GraphLIME | Li [82]                                                                       | Can explain the importance of different node features for node classification tasks, but ignores the impact of edges on model performance. And it cannot be used to explain graph classification models. |
 
 ## Ante-hoc explainability methods
 <a name="section-id5"></a>
