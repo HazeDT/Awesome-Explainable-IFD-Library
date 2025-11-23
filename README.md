@@ -83,11 +83,38 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 
 | Method    | Literatures                                                                 | Usage and Disadvantages |
 |-----------|-------------------------------------------------------------------------------|---------------------------|
-| LIME      | Yao [[ASME 2021](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2021/V004T05A008/1119988)], Al-Zeyadi [[IJCNN 2020](https://ieeexplore.ieee.org/document/9206972)], Sanakkayala [86], Akin [[Micromachines 2022](https://www.mdpi.com/2072-666X/13/9/1471)], Khan [[UT 2024](https://essay.utwente.nl/fileshare/file/101027/Akin_BA_EEMCS.pdf)], Gawde [[DAJ 2024](https://www.sciencedirect.com/science/article/pii/S2772662224000298)], [[IEEE Access 2024](https://ieeexplore.ieee.org/document/10440027)], Li [[MST 2024](https://iopscience.iop.org/article/10.1088/1361-6501/ad3666)], Lu [[MST 2022](https://iopscience.iop.org/article/10.1088/1361-6501/ac78c5)], Mai [[DCASE 2022](https://qmro.qmul.ac.uk/jspui/handle/123456789/82013)] | Can explain tables, images, and text data, but can only provide explanations for predictions of a single sample, and the explanations are unstable. |
+| LIME      | Yao [[ASME 2021](https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2021/V004T05A008/1119988)], Al-Zeyadi [[IJCNN 2020](https://ieeexplore.ieee.org/document/9206972)], Sanakkayala [86], Akin [[Micromachines 2022](https://www.mdpi.com/2072-666X/13/9/1471)], Khan [[UT 2024](https://essay.utwente.nl/fileshare/file/101027/Akin_BA_EEMCS.pdf)], Gawde [[DAJ 2024](https://www.sciencedirect.com/science/article/pii/S2772662224000298)], [[Access 2024](https://ieeexplore.ieee.org/document/10440027)], Li [[MST 2024](https://iopscience.iop.org/article/10.1088/1361-6501/ad3666)], Lu [[MST 2022](https://iopscience.iop.org/article/10.1088/1361-6501/ac78c5)], Mai [[DCASE 2022](https://qmro.qmul.ac.uk/jspui/handle/123456789/82013)] | Can explain tables, images, and text data, but can only provide explanations for predictions of a single sample, and the explanations are unstable. |
 | SP-LIME   | ——                                                                            | Multiple samples can be explained, and the selected samples need to cover important features, but the algorithm accuracy is low. |
 | S-LIME    | ——                                                                            | Can produce stable explanations, not suitable for time series data. |
 | ILIME     | ——                                                                            | By selecting the most influential samples for prediction, the explanation accuracy is higher, but it is not applicable to text and image data. |
 | GraphLIME | Li [[AEI 2024](https://www.sciencedirect.com/science/article/pii/S1474034624001083)]                                                                       | Can explain the importance of different node features for node classification tasks, but ignores the impact of edges on model performance. And it cannot be used to explain graph classification models. |
+
+#### b.Gradient-based methods
+
+| Method              | Literatures          | Usage and Disadvantages |
+|---------------------|-----------------------|---------------------------|
+| Guided-BP           | ——                    | The target features are relatively concentrated. |
+| Integrated gradients | Li [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Du [[
+Sensors 2022](https://www.mdpi.com/1424-8220/22/22/8760)]      | Explain that within CNN, there is less noise in the features. |
+| Smooth gradients     | Peng [[ISA Transactions 2022](https://www.sciencedirect.com/science/article/pii/S0019057821003219)]             | Positioning image decision features, unable to quantify contribution. |
+
+#### c.Class activation mapping-based methods
+
+| Method           | Literatures                                                                 | Usage and Disadvantages                                                                 |
+|------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| CAM              | Sun [[Access 2020](https://ieeexplore.ieee.org/document/9142228)]                                                                   | Effectively reduces parameters and prevent overfitting, but the original model structure needs to be modified. |
+| Grad-CAM         | Zhang [[
+Sensors
+ 2024](https://www.mdpi.com/1424-8220/24/6/1831)], Chen [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Lu [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Ren [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Menno [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Mathew [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Yu [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Guo [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Senjoba [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)], Guo [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)] | Can be applied to different convolutional neural networks for explanation, but the gradient is unstable. |
+| Grad-CAM++       | Chen [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                   | Suitable for multi-target object detection explanations, but a lot of background information will be marked. |
+| Score-CAM        | Chen [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                   | A gradient free method with good visualization effect                                    |
+| Smoothed Score-CAM | Yang [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                | Introduces an enhanced visual explanation algorithm to smooth the traditional Score-CAM |
+| FreGrad-CAM      | Kim [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                   | Designed to visualize the learned frequency features.                                   |
+| MultiGrad-CAM    | Li [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                    | Designed to address the issue of traditional Grad CAM feature resolution decreasing with increasing network layers |
+| GCN—CAM          | Chen [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                  | Designed to visualize the learned features of GNNs.                                      |
+| SGG-CAM          | Sun [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                   | Designed to solve the problem of insufficient centralized and accurate activation response of traditional CAM to fault areas |
+| Grad-Absolute-CAM | Li [[TNNLS 2021](https://ieeexplore.ieee.org/document/9411732)]                                                                   | Designed to address the issue of traditional Grad-CAM being unable to focus on activating negative feature maps |
+
 
 ## Ante-hoc explainability methods
 <a name="section-id5"></a>
