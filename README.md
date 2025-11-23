@@ -67,7 +67,7 @@ IFD consists of four main tasks, that is, machine anomaly detection (AD), fault 
 
 ### 1) Globally explainable methods
 <a name="section-id3"></a>
-Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism
+> Global explainability aims to help people understand the overall logic behind the model and its inner working mechanism.
 #### 2025
 
 
